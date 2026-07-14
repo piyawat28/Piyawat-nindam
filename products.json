@@ -1,0 +1,35 @@
+[
+  {
+    "id": "1",
+    "name": "iPhone 15",
+    "stock": 12,
+    "stock_text": "12 in stock",
+    "category": "Smartphone",
+    "location_count": 3,
+    "location_text": "3 stores",
+    "badge_status": "Active",
+    "image_url": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=500"
+  },
+  {
+    "id": "2",
+    "name": "MacBook Air",
+    "stock": 5,
+    "stock_text": "5 in stock",
+    "category": "Laptop",
+    "location_count": 2,
+    "location_text": "2 stores",
+    "badge_status": "Active",
+    "image_url": "https://images.unsplash.com/photo-1517336714739-489689fd1ca8?w=500"
+  },
+  {
+    "id": "3",
+    "name": "iPad Air",
+    "stock": 1,
+    "stock_text": "1 in stock",
+    "category": "Tablet",
+    "location_count": 1,
+    "location_text": "1 store",
+    "badge_status": "Low in stock",
+    "image_url": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500"
+  }
+]
