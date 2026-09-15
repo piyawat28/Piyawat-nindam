@@ -3,8 +3,9 @@ import {
   SafeAreaView,
   StyleSheet,
   Text,
-  TouchableOpacity
+  TouchableOpacity,
 } from 'react-native';
+import { router } from 'expo-router';
 
 export default function HomeScreen() {
   return (
@@ -22,7 +23,10 @@ export default function HomeScreen() {
         Welcome to My Product App
       </Text>
 
-      <TouchableOpacity style={styles.button}>
+      <TouchableOpacity
+        style={styles.button}
+        onPress={() => router.push('/jsonProducts')}
+      >
         <Text style={styles.buttonText}>View Products</Text>
       </TouchableOpacity>
     </SafeAreaView>
